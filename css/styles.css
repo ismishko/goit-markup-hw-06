@@ -749,8 +749,8 @@ textarea {
 }
 
 .checkbox-input {
-  margin-left: 51px;
-  margin-right: 52px;
+  margin-left: 52px;
+  margin-right: 51px;
   margin-bottom: 30px;
 }
 
@@ -776,6 +776,13 @@ textarea {
   border: 2px solid var(--H-and-header);
   border-radius: 3px;
   fill: var(--background-color);
+  margin-right: 9px;
+  display: block;
+}
+
+.agree-text {
+  display: flex;
+  align-items: center;
 }
 
 .checkbox-form:checked + .icon-check-in {
